@@ -6,9 +6,11 @@ The objective of this project was to develop two machine learning models by exam
 **The Big Picture:**
 A European call option gives the holder the right (but not the obligation) to purchase an asset at a given time for a given price. Valuing such an option is tricky because it depends on the future value of the underlying asset. The Black-Scholes option pricing formula provides an approach for valuing such options. The Black-Scholes formula states:
 where,
+
 C_pred: predicted option value
 d1=log(S/K)+(r+2)tau/(tau)
 d2=d1-(sÖTau)
+
 S: Current asset value
 Φ(x): represents the probability that a standard normal random variable will take on a value less than or equal to 𝑥.
 K: Strike price of Option
