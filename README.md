@@ -12,10 +12,15 @@ d1=log(S/K)+(r+2)tau/(tau)
 d2=d1-(sÖTau)
 
 S: Current asset value
+
 Φ(x): represents the probability that a standard normal random variable will take on a value less than or equal to 𝑥.
+
 K: Strike price of Option
+
 r: Annual interest rate
+
 tau: time to maturity (in years)
+
 Using a dataset of 1680 options, we built statistical/ML models. For training our models, we used 70% of this data and the rest 30% was used to test out the models. We explored regression models like linear Regression and Random Forest Regressor for predicting the Value and classification models like Logistic Regression, SVM, KNN, Random Forest Classifier and Naïve Bayes Classifier for classifying if the option value has been over-estimated or under-estimated.
 
 **Results:**
